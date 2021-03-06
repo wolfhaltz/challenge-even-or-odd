@@ -17,7 +17,27 @@
             <div class="card col-8 m-auto">
                 <div class="row d-flex justify-content-center">
                     <div class="col-12 col-md-6">
-                        <h4 class="mt-2">Odd or even?</h4>
+                        <div class="mt-2 mb-5">
+                            <h4>Odd or even?</h4>
+                            <p>Type the number in the input, press enter and discover if it is a odd or even!</p>
+                        </div>
+
+                        <!-- input -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" >?</span>
+                            </div>
+                            <input type="number" class="form-control" placeholder="Odd or even?" aria-label="Odd or even?" id="oddOrEven" onchange="oddOrEven()">
+                          </div>
+
+                        <!-- odd -->
+                        <div class="option--odd">
+                            <p>It's odd!</p>
+                        </div>
+                        <!-- even -->
+                        <div class="option--even">
+                            <p>It's even!</p>
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 robot-bg">
                         <img src="./img/robot_transparent_greetings.png" alt="Hellow ma friend!" class="robot" />

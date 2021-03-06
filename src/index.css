@@ -6,6 +6,9 @@ body{
     background-color: #fff;
 }
 
+.option--odd{ display: none; }
+.option--even{ display: none; }
+
 .robot-bg{
     background-image: url('./img/bg.png');
     background-size: contain;
