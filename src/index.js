@@ -24,3 +24,18 @@ function oddOrEven(){
     }
 
 }
+
+
+/* MODALS */
+var modalOdd = document.getElementById("modalOdd");
+var btnOdd = document.getElementById("modalBtnOdd");
+
+btnOdd.onclick = function() {
+    modalOdd.style.display = "block";
+}
+
+window.onclick = function(event) {
+    if (event.target == modalOdd) {
+        modalOdd.style.display = "none";
+    }
+}
