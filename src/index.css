@@ -5,9 +5,28 @@ body{
 .main{
     background-color: #fff;
 }
+.main-title{
+    font-weight: 900;
+    font-size: 24px;
+}
+.main-description{
+    font-size: 12px;
+}
 
 .option--odd{ display: none; }
 .option--even{ display: none; }
+
+.code-title{
+    font-weight: 900;
+    font-size: 16px;
+    margin: 0;
+}
+.code-description{
+    font-size: 12px;
+}
+.code-box{
+    font-size: 12px;
+}
 
 .robot-bg{
     background-image: url('./img/bg.png');
