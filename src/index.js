@@ -28,14 +28,24 @@ function oddOrEven(){
 
 /* MODALS */
 var modalOdd = document.getElementById("modalOdd");
+var modalEven = document.getElementById("modalEven");
 var btnOdd = document.getElementById("modalBtnOdd");
+var btnEven = document.getElementById("modalBtnEven");
 
 btnOdd.onclick = function() {
     modalOdd.style.display = "block";
 }
 
+btnEven.onclick = function() {
+    modalEven.style.display = "block";
+}
+
 window.onclick = function(event) {
     if (event.target == modalOdd) {
         modalOdd.style.display = "none";
+    }
+
+    if (event.target == modalEven) {
+        modalEven.style.display = "none";
     }
 }
