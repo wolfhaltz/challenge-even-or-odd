@@ -16,11 +16,11 @@ function oddOrEven(){
     console.log(number)
 
     if( number % 2 == 0){
-        optionEven[0].classList.remove('d-block');
-        optionOdd[0].classList.add('d-block');
-    }else{
         optionOdd[0].classList.remove('d-block');
         optionEven[0].classList.add('d-block');
+    }else{
+        optionEven[0].classList.remove('d-block');
+        optionOdd[0].classList.add('d-block');
     }
 
 }
