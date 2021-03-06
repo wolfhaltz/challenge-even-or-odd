@@ -27,7 +27,7 @@ Open on yout favorite browser ;)
 <b>Thank you for your support!</b>
 
 # Preview
-<img src="overview.png" alt="What the fuck is going on here?" />
+<img src="src/img/overview.png" alt="What the fuck is going on here?" />
 
 
 # How is the development of the project right now?
