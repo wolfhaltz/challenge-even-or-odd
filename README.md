@@ -33,7 +33,7 @@ Open on yout favorite browser ;)
 # How is the development of the project right now?
 <b>Last update:</b> 05/03/2021
 
-Readme updated :)
+It's working, but needs some fixes writing better about the code explanation, hahaha.
 
 <br/>
 
